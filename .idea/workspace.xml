@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="hello_python.py add 함수 추가">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="hello_python.py 병합 후 commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +28,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MinSu-Kim/MachineLearning.git",
+    "accountId": "eea3204a-5747-4941-9e29-e5c9e70df684"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -130,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766470240692</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hello_python.py 병합 후 commit">
+      <option name="closed" value="true" />
+      <created>1766471171199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766471171199</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +173,7 @@
     <MESSAGE value="hello_python.py 생성" />
     <MESSAGE value="hello_python.py 코드 추가" />
     <MESSAGE value="hello_python.py add 함수 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello_python.py add 함수 추가" />
+    <MESSAGE value="hello_python.py 병합 후 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello_python.py 병합 후 commit" />
   </component>
 </project>
