@@ -1,6 +1,9 @@
 def add(a, b):
     return a+b
 
+def div(a, b):
+    return a/b
+
 
 if __name__ == "__main__":
     print("hello python")
@@ -9,4 +12,4 @@ if __name__ == "__main__":
     y =5
 
     res = add(x, y)
-    print("add({}, {}) result => {}".format(x, y, res))
+    print("add({}, {}) = {}\ndiv({}, {}) = {}".format(x, y, res, x, y, div(x, y)))
