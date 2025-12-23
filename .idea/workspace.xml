@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="hello_python.py add 함수 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_python.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
