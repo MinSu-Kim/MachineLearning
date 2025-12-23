@@ -9,8 +9,7 @@ def div(a, b):
 
 
 if __name__ == "__main__":
-    print("hello python")
-    print("hello pycharm")
+    print("hello python hi pycharm")
     x = 10
     y =5
 
