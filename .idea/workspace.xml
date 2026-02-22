@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="hello_python.py 병합 후 commit" />
+    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="hello_python.py print문 format 적용">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function_Set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_Filter&amp;Sorting_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_Filter&amp;Sorting_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/machine_Grouping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +36,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MinSu-Kim/MachineLearning.git",
-    "accountId": "eea3204a-5747-4941-9e29-e5c9e70df684"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MinSu-Kim&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MinSu-Kim/MachineLearning.git&quot;,
+    &quot;accountId&quot;: &quot;eea3204a-5747-4941-9e29-e5c9e70df684&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -43,16 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.hello_python.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/net94/PycharmProjects/MachineLearning&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.hello_python.executor": "Run",
+    "Python.machine01.executor": "Run",
+    "Python.machine02.executor": "Run",
+    "Python.machine03.executor": "Run",
+    "Python.machine_Grouping.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/net94/PycharmProjects/MachineLearning",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\net94\PycharmProjects\MachineLearning" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning\.idea" />
     </key>
@@ -142,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766471171199</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hello_python.py print문 format 적용">
+      <option name="closed" value="true" />
+      <created>1766471782490</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766471782490</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +203,7 @@
     <MESSAGE value="hello_python.py 코드 추가" />
     <MESSAGE value="hello_python.py add 함수 추가" />
     <MESSAGE value="hello_python.py 병합 후 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello_python.py 병합 후 commit" />
+    <MESSAGE value="hello_python.py print문 format 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello_python.py print문 format 적용" />
   </component>
 </project>
