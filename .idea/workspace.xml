@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="hello_python.py print문 format 적용">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function_Set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_Filter&amp;Sorting_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_Filter&amp;Sorting_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/machine_Grouping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_Grouping.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_Grouping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +47,23 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="37EXqfqjVk624KvmLSzEZWj84Eg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.hello_python.executor": "Run",
-    "Python.machine01.executor": "Run",
-    "Python.machine02.executor": "Run",
-    "Python.machine03.executor": "Run",
-    "Python.machine_Grouping.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/net94/PycharmProjects/MachineLearning",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.hello_python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.machine01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.machine02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.machine03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.machine_Grouping.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/net94/PycharmProjects/MachineLearning&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning" />
@@ -173,6 +167,9 @@
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
