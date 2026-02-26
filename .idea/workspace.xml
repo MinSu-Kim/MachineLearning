@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="hello_python.py print문 format 적용">
+    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="Question 47번부터">
+      <change afterPath="$PROJECT_DIR$/pandas_5.4 누적통계함수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas_8.2 다양한 연산으로 열 가공하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas_8.5 수치형 데이터의 범주화.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/machine_Grouping.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_Grouping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/MinSu-Kim/MachineLearning.git&quot;,
-    &quot;accountId&quot;: &quot;eea3204a-5747-4941-9e29-e5c9e70df684&quot;
+    &quot;accountId&quot;: &quot;5ae5ef1f-2caa-4525-81ae-f2eed9dcf731&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -58,14 +60,19 @@
     &quot;Python.machine02.executor&quot;: &quot;Run&quot;,
     &quot;Python.machine03.executor&quot;: &quot;Run&quot;,
     &quot;Python.machine_Grouping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_5.4 누적통계함수.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_8.2 다양한 연산으로 열 가공하기.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_8.5 수치형 데이터의 범주화.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/net94/PycharmProjects/MachineLearning&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bnd00/PycharmProjects/MachineLearning&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bnd00\PycharmProjects\MachineLearning" />
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -104,7 +111,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
+        <option value="bundled-python-sdk-1f1b7bcced7d-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.29188.22" />
       </set>
     </attachedChunks>
   </component>
@@ -165,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766471782490</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Question 47번부터">
+      <option name="closed" value="true" />
+      <created>1771823158523</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771823158523</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +216,7 @@
     <MESSAGE value="hello_python.py add 함수 추가" />
     <MESSAGE value="hello_python.py 병합 후 commit" />
     <MESSAGE value="hello_python.py print문 format 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="hello_python.py print문 format 적용" />
+    <MESSAGE value="Question 47번부터" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question 47번부터" />
   </component>
 </project>
