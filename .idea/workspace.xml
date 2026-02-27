@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="pandas study - 1">
-      <change afterPath="$PROJECT_DIR$/pandas_10 문자열을 다루는 함수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas_10.3 정규표현식.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas_11 피벗테이블.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas_11.2 언피벗.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas_12.1 groupby 함수로 열 가공하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas_12.1.5 groupby 함수로 전후방값으로 결측값 대체.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_11 피벗테이블.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_11.1 피벗테이블.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +42,14 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/MinSu-Kim/MachineLearning.git&quot;,
-    &quot;accountId&quot;: &quot;5ae5ef1f-2caa-4525-81ae-f2eed9dcf731&quot;
+    &quot;accountId&quot;: &quot;eea3204a-5747-4941-9e29-e5c9e70df684&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="37EXqfqjVk624KvmLSzEZWj84Eg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,20 +65,22 @@
     "Python.pandas_10.3 정규표현식.executor": "Run",
     "Python.pandas_11 피벗테이블.executor": "Run",
     "Python.pandas_11.2 언피벗.executor": "Run",
+    "Python.pandas_12.1 groupby 함수로 열 가공하기.executor": "Run",
+    "Python.pandas_12.1.5 groupby 함수로 전후방값으로 결측값 대체.executor": "Run",
     "Python.pandas_5.4 누적통계함수.executor": "Run",
     "Python.pandas_8.2 다양한 연산으로 열 가공하기.executor": "Run",
     "Python.pandas_8.5 수치형 데이터의 범주화.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/bnd00/PycharmProjects/MachineLearning",
+    "last_opened_file_path": "C:/Users/net94/PycharmProjects/MachineLearning",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\bnd00\PycharmProjects\MachineLearning" />
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning" />
+      <recent name="C:\Users\bnd00\PycharmProjects\MachineLearning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning\.idea" />
@@ -116,7 +118,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-1f1b7bcced7d-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.29188.22" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -195,9 +197,6 @@
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
