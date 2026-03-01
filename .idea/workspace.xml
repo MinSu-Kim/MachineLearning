@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="12.1.7 groupby cumcount">
-      <change afterPath="$PROJECT_DIR$/pandas_12.1.8 집계결과를 열로 생성하기(transform).py" afterDir="false" />
+    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="12.1.8 groupby transform">
+      <change afterPath="$PROJECT_DIR$/pandas_12.2.1 groupby 함수로 집계함수 적용하기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +67,7 @@
     "Python.pandas_12.1.5 groupby 함수로 전후방값으로 결측값 대체.executor": "Run",
     "Python.pandas_12.1.7 groupby 함수로 순번구하기(cumcount).executor": "Run",
     "Python.pandas_12.1.8 집계결과를 열로 생성하기(transform).executor": "Run",
+    "Python.pandas_12.2.1 groupby 함수로 집계함수 적용하기.executor": "Run",
     "Python.pandas_5.4 누적통계함수.executor": "Run",
     "Python.pandas_8.2 다양한 연산으로 열 가공하기.executor": "Run",
     "Python.pandas_8.5 수치형 데이터의 범주화.executor": "Run",
@@ -227,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772346583619</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="12.1.8 groupby transform">
+      <option name="closed" value="true" />
+      <created>1772348130389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772348130389</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +273,7 @@
     <MESSAGE value="pandas study - 1" />
     <MESSAGE value="12.1.6 groupby cumsum 누적합 구하기" />
     <MESSAGE value="12.1.7 groupby cumcount" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.1.7 groupby cumcount" />
+    <MESSAGE value="12.1.8 groupby transform" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.1.8 groupby transform" />
   </component>
 </project>
