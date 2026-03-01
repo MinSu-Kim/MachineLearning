@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="pandas study - 1">
-      <change afterPath="$PROJECT_DIR$/pandas_12.1 groupby 함수로 열 가공하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas_12.1.5 groupby 함수로 전후방값으로 결측값 대체.py" afterDir="false" />
+    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="12.1.6 groupby cumsum 누적합 구하기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas_11 피벗테이블.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_11.1 피벗테이블.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_12.1.5 groupby 함수로 전후방값으로 결측값 대체.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_12.1.5 groupby 함수로 전후방값으로 결측값 대체.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,29 +52,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.hello_python.executor": "Run",
-    "Python.machine01.executor": "Run",
-    "Python.machine02.executor": "Run",
-    "Python.machine03.executor": "Run",
-    "Python.machine_Grouping.executor": "Run",
-    "Python.pandas_10 문자열을 다루는 함수.executor": "Run",
-    "Python.pandas_10.3 정규표현식.executor": "Run",
-    "Python.pandas_11 피벗테이블.executor": "Run",
-    "Python.pandas_11.2 언피벗.executor": "Run",
-    "Python.pandas_12.1 groupby 함수로 열 가공하기.executor": "Run",
-    "Python.pandas_12.1.5 groupby 함수로 전후방값으로 결측값 대체.executor": "Run",
-    "Python.pandas_5.4 누적통계함수.executor": "Run",
-    "Python.pandas_8.2 다양한 연산으로 열 가공하기.executor": "Run",
-    "Python.pandas_8.5 수치형 데이터의 범주화.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/net94/PycharmProjects/MachineLearning",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.hello_python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.machine01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.machine02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.machine03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.machine_Grouping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_10 문자열을 다루는 함수.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_10.3 정규표현식.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_11 피벗테이블.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_11.2 언피벗.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_12.1 groupby 함수로 열 가공하기.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_12.1.5 groupby 함수로 전후방값으로 결측값 대체.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_5.4 누적통계함수.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_8.2 다양한 연산으로 열 가공하기.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pandas_8.5 수치형 데이터의 범주화.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/net94/PycharmProjects/MachineLearning&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning" />
@@ -195,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772148613665</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="12.1.6 groupby cumsum 누적합 구하기">
+      <option name="closed" value="true" />
+      <created>1772182765000</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772182765000</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +236,7 @@
     <MESSAGE value="hello_python.py print문 format 적용" />
     <MESSAGE value="Question 47번부터" />
     <MESSAGE value="pandas study - 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="pandas study - 1" />
+    <MESSAGE value="12.1.6 groupby cumsum 누적합 구하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.1.6 groupby cumsum 누적합 구하기" />
   </component>
 </project>
