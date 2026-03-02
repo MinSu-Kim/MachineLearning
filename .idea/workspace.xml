@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="12.1.8 groupby transform">
-      <change afterPath="$PROJECT_DIR$/pandas_12.2.1 groupby 함수로 집계함수 적용하기.py" afterDir="false" />
+    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="12.2 groupby 함수로 집계하기">
+      <change afterPath="$PROJECT_DIR$/pandas_12.2.4 문자열의결합(join).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas_pandas_12.2.4 문자열의결합(join).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas_12.2.1 groupby 함수로 집계함수 적용하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas_12.2.1 groupby 함수로 집계함수 적용하기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.12.2.4 문자열의결합(join).executor": "Run",
     "Python.hello_python.executor": "Run",
     "Python.machine01.executor": "Run",
     "Python.machine02.executor": "Run",
@@ -68,9 +71,11 @@
     "Python.pandas_12.1.7 groupby 함수로 순번구하기(cumcount).executor": "Run",
     "Python.pandas_12.1.8 집계결과를 열로 생성하기(transform).executor": "Run",
     "Python.pandas_12.2.1 groupby 함수로 집계함수 적용하기.executor": "Run",
+    "Python.pandas_12.2.4 문자열의결합(join).executor": "Run",
     "Python.pandas_5.4 누적통계함수.executor": "Run",
     "Python.pandas_8.2 다양한 연산으로 열 가공하기.executor": "Run",
     "Python.pandas_8.5 수치형 데이터의 범주화.executor": "Run",
+    "Python.pandas_pandas_12.2.4 문자열의결합(join).executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -236,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772348130389</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="12.2 groupby 함수로 집계하기">
+      <option name="closed" value="true" />
+      <created>1772348802373</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1772348802373</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +287,7 @@
     <MESSAGE value="12.1.6 groupby cumsum 누적합 구하기" />
     <MESSAGE value="12.1.7 groupby cumcount" />
     <MESSAGE value="12.1.8 groupby transform" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.1.8 groupby transform" />
+    <MESSAGE value="12.2 groupby 함수로 집계하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.2 groupby 함수로 집계하기" />
   </component>
 </project>

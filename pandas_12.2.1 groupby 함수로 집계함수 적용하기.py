@@ -25,7 +25,20 @@ if __name__ == "__main__":
     df1 = pd.DataFrame(data1, columns=['이름', '반', '성별', '국어', '영어'])
     print(
         df1,
-
+        'groupby 함수로 반과 성별로 그룹을 나누어 국어 열의 평균을 구하자',
+        df1.groupby(['반', '성별'])['국어'].mean(),
+        'pivot_table 함수로 반과 성별로 나누어 국어 평균을 집계한 피벗 테이블을 생성',
+        df1.pivot_table('국어', index=['반'], columns=['성별'], aggfunc=['mean']),
+        df1.pivot_table('국어', index=['반'], columns=['성별'], aggfunc=['mean']).unstack(),
+        df1.pivot_table('국어', index=['반'], columns=['성별'], aggfunc=['mean']).stack(),
+        df1.pivot_table('국어', index=['반', '성별'], aggfunc=['mean']),
+        df1.groupby(['반', '성별'])['국어'].agg(['max', 'min']),
+        df1.groupby(['반', '성별']).agg({'영어':'min', '국어':'count'}),
+        df1.groupby(['반', '성별']).agg(
+            영어평균=('영어', 'mean'),
+            국어평균=('국어', 'mean'),
+            인원수=('국어', 'count'),
+        ),
         sep='\n',
         end='\n\n'
     )
