@@ -18,7 +18,7 @@ if __name__ == "__main__":
     df['날짜'] = pd.to_datetime(df['날짜'])
     df['누적금액1'] = df.resample('MS', on='날짜')['금액'].cumsum()
     df['누적금액2'] = df.groupby('월')['금액'].cumsum()
-    df['분기별누적'] = df.resample('Q', on='날짜')['금액'].cumsum()
+    df['분기별누적'] = df.resample('QE', on='날짜')['금액'].cumsum()
 
     print(
         df,
@@ -32,8 +32,41 @@ if __name__ == "__main__":
             '매출': [10000, 20000, 30000, 40000, 50000, 60000],
             '마진': [1000, 2000, 4000, 6000, 7000, 8000]}
     df = pd.DataFrame(data)
+    print(df.info())
+
     print(
         df,
+        '일자별 매출 합계',
+        df.resample('D', on='날짜')['매출'].sum(),
+        '월별 매출 합계 월의마지막일',
+        df.resample('ME', on='날짜')['매출'].sum(),
+        '월별 매출 합계 월의시작일',
+        df.resample('MS', on='날짜')['매출'].sum(),
+        '월별 매출과 마진열의 합계',
+        df.resample('MS', on = '날짜')[['매출', '마진']].sum(),
+        '월별 일평균 매출',
+        df,
+        df.resample('D', on='날짜')['매출'].sum().resample('MS').mean(),
         sep='\n\n',
         end='\n\n'
     )
+
+    print(
+        df,
+        'resample함수에 agg 적용',
+        df.resample('D', on='날짜').agg(
+            매출합=('매출', 'sum'),
+            매출건수=('매출', 'count')
+        ),
+        df.resample('D', on='날짜').agg(
+            매출합=('매출', 'sum'),
+            매출건수=('매출', 'count')
+        ).resample('MS').agg(
+            매출합계=('매출합', 'sum'),
+            일평균_매출=('매출합', 'mean'),
+            매출건수=('매출건수', 'count'),
+        ),
+        sep='\n\n',
+        end='\n\n'
+    )
+
