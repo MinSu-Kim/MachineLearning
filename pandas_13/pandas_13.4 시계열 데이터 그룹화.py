@@ -64,9 +64,27 @@ if __name__ == "__main__":
         ).resample('MS').agg(
             매출합계=('매출합', 'sum'),
             일평균_매출=('매출합', 'mean'),
-            매출건수=('매출건수', 'count'),
+            매출건수=('매출건수', 'sum'),
         ),
         sep='\n\n',
         end='\n\n'
     )
 
+    # 코드 13-43. groupby와 resample 동시에 적용 실습 예제 코드
+    date = pd.date_range('2024-01-30 19:00', periods=6, freq='9h')
+    data1 = {'날짜': date,
+             '제품': ['A', 'B', 'A', 'A', 'B', 'A'],
+             '매출': [10000, 20000, 30000, 40000, 50000, 60000]}
+    df1 = pd.DataFrame(data1)
+
+    print(
+        df1,
+        '제품으로 그룹을 나누어 일자별 매출 합을 집계',
+        df1.groupby('제품').resample('D', on='날짜')['매출'].sum(),
+        '위의 결과를 교차표로 생성',
+        df1.groupby('제품').resample('D', on='날짜')['매출'].sum().unstack(0),
+        df1.groupby('제품').resample('D', on='날짜')['매출'].sum().unstack(1),
+        df1.groupby('제품').resample('D', on='날짜')['매출'].sum().unstack(-1),
+        sep='\n\n',
+        end='\n\n'
+    )
