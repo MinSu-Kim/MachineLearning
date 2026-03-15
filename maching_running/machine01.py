@@ -23,6 +23,6 @@ if __name__ == "__main__":
 
     # CSV 파일 불러오기
     dp_set()
-    df = pd.read_csv('data/titanic_train.csv')
+    df = pd.read_csv('../data/titanic_train.csv')
     # 불러온 데이터프레임 출력
     print(df)

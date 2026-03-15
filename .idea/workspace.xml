@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="폴더정리">
-      <change afterPath="$PROJECT_DIR$/pandas_13/pandas_13.2 시계열 데이터로 변환 및 인덱싱.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas_13/pandas_13.4 시계열 데이터 그룹화.py" afterDir="false" />
+    <list default="true" id="1c2c03ea-b6f6-4cef-b80d-483ab1e7df2a" name="Changes" comment="13.4 시계열데이터 그룹화하기 중 에서 13.4.3 그룹집계하기 부터">
+      <change afterPath="$PROJECT_DIR$/pre_processing/machine_Grouping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas_13/pandas_13.2 시계열 데이터로 변환 및 인덱싱.py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap01/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap01/test_python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine01.py" beforeDir="false" afterPath="$PROJECT_DIR$/maching_running/machine01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_Filter&amp;Sorting_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_processing/machine_Filter&amp;Sorting_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_Filter&amp;Sorting_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_processing/machine_Filter&amp;Sorting_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_Grouping.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_processing/machine_Apply_Map.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +66,7 @@
     "Python.machine01.executor": "Run",
     "Python.machine02.executor": "Run",
     "Python.machine03.executor": "Run",
+    "Python.machine_Apply_Map.executor": "Run",
     "Python.machine_Grouping.executor": "Run",
     "Python.pandas_10 문자열을 다루는 함수.executor": "Run",
     "Python.pandas_10.3 정규표현식.executor": "Run",
@@ -81,22 +87,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/net94/PycharmProjects/MachineLearning/pandas_13",
+    "last_opened_file_path": "C:/Users/net94/PycharmProjects/MachineLearning/pre_processing",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\net94\PycharmProjects\MachineLearning\pre_processing" />
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning\pandas_13" />
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning" />
       <recent name="C:\Users\bnd00\PycharmProjects\MachineLearning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\net94\PycharmProjects\MachineLearning\maching_running" />
+      <recent name="C:\Users\net94\PycharmProjects\MachineLearning\pre_processing" />
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning\pandas_13" />
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning\pandas_12" />
       <recent name="C:\Users\net94\PycharmProjects\MachineLearning\pandas_11" />
-      <recent name="C:\Users\net94\PycharmProjects\MachineLearning\pandas_10" />
-      <recent name="C:\Users\net94\PycharmProjects\MachineLearning\pandas_8" />
     </key>
   </component>
   <component name="RunManager">
@@ -280,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772432425038</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="13.4 시계열데이터 그룹화하기 중 에서 13.4.3 그룹집계하기 부터">
+      <option name="closed" value="true" />
+      <created>1772436330015</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1772436330015</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,6 +336,7 @@
     <MESSAGE value="12.2 groupby 함수로 집계하기" />
     <MESSAGE value="12 데이터그룹화하기 완료" />
     <MESSAGE value="폴더정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="폴더정리" />
+    <MESSAGE value="13.4 시계열데이터 그룹화하기 중 에서 13.4.3 그룹집계하기 부터" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.4 시계열데이터 그룹화하기 중 에서 13.4.3 그룹집계하기 부터" />
   </component>
 </project>
